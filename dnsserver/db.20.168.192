@@ -1,0 +1,13 @@
+$TTL 604800
+@       IN      SOA     darthvader.starwars.lan. admin.starwars.lan. (
+                        2025100601 ; Serial
+                        604800     ; Refresh
+                        86400      ; Retry
+                        2419200    ; Expire
+                        604800 )   ; Negative Cache TTL
+
+@       IN      NS      darthvader.starwars.lan.
+@       IN      NS      darthsidious.starwars.lan.
+
+20      IN      PTR     darthvader.starwars.lan.
+

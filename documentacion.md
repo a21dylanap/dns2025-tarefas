@@ -97,3 +97,11 @@ palpatine      IN      CNAME   darthsidious
 
 lenda          IN      TXT     "Que a forza te acompanhe"
 ```
+
+
+
+
+# Hacer la red
+sudo vboxtun.sh tap0 br-a6314929999e
+
+20.168.192
